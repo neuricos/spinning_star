@@ -151,7 +151,7 @@ var f2 = gui.addFolder('Slider Bar');
 f2.add(panel, 'speed', -300, 300).step(1).name('Spinning Speed');
 f2.add(panel, 'scale', 0.5, 5).step(0.001).name('Sky Range');
 f2.add(panel, 'jitterRadius', 0, 5).step(0.001).name('Ripple Effect');
-f2.add(panel, 'clearAlpha', 0, 100).step( 1 ).name('Exposure Frequency');
+f2.add(panel, 'clearAlpha', 0, 100).step( 1 ).name('EXP Frequency');
 var f3 = gui.addFolder('Toggole Window');
 f3.add(panel, 'toggleTrailitals').name('Toggle Trails');
 f3.add(panel, 'toggleLight').name('Toggle Light');
