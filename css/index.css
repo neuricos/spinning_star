@@ -1,0 +1,19 @@
+/* author: Zetian Chen
+ * description: css file for the dark sky star spinning effect
+ */
+
+/* use gradient effect to create the dark sky */
+body {
+    background: radial-gradient(#0b3b56, #011c2c, #010103);
+}
+
+canvas {  
+    display: block; 
+}
+
+/* configure the graphical user interface */
+#gui {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
